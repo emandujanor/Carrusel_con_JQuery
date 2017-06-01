@@ -1,4 +1,4 @@
-var $target = 0;
+var target = 0;
 
 var cargarPagina = function () {
 	// Elementos
@@ -42,4 +42,4 @@ var siguienteImagen = function (e) {
 
 
 
-$document.ready(cargarPagina);
+window.addEventListener("load", cargarPagina);
